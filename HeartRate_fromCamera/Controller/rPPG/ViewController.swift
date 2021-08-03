@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     var allContourPoint: [[CGPoint]] = []
     var img: [UIImage] = []
     var cggImage:CGImage?
-    //xxxxxxxxxxxxxxxxxxxxxxxxx
+    
     weak var loopTimer: Timer?
     var secondRemaining = 0
     var click = 1
