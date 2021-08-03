@@ -48,19 +48,19 @@ class ResultViewController: UIViewController {
                     greenmean += averagergb[i][1]
                     bluemean += averagergb[i][2]
                 }
-            
-//                let hsv = rgb2hsv((red: redmean, green: greenmean, blue: bluemean, alpha: 1.0))
-//                inputs.append(hsv.0)
-//                let filtered = hueFilter.processValue(value: Double(hsv.0))
-//                pulseDetector.addNewValue(newVal: filtered, atTime: CACurrentMediaTime())
-//                let average = self.pulseDetector.getAverage()
-//                let pulse = 60.0/average
-//                if pulse == -60 {
-//                    runLoopTimer()
-//                }else{
-//                    print(pulse)
-//                }
-//                result.text = "\(lroundf(Float(pulse * -1.75))) BPM"
+                //BandPassFilter
+                let hsv = rgb2hsv((red: redmean, green: greenmean, blue: bluemean, alpha: 1.0))
+                inputs.append(hsv.0)
+                let filtered = hueFilter.processValue(value: Double(hsv.0))
+                pulseDetector.addNewValue(newVal: filtered, atTime: CACurrentMediaTime())
+                let average = self.pulseDetector.getAverage()
+                let pulse = 60.0/average
+                if pulse == -60 {
+                    runLoopTimer()
+                }else{
+                    print(pulse)
+                }
+                result.text = "\(lroundf(Float(pulse))) BPM"
                 
                 //POS
                 let l = Int(60 * 1.6)

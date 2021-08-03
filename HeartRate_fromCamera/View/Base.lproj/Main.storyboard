@@ -11,7 +11,7 @@
         <!--Start View Controller-->
         <scene sceneID="mHk-gs-rkP">
             <objects>
-                <viewController id="QqL-to-AI7" customClass="StartViewController" customModule="HR_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QqL-to-AI7" customClass="StartViewController" customModule="HeartRate_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ta1-Q9-DKE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
         <!--View Controller-->
         <scene sceneID="DsH-qY-erG">
             <objects>
-                <viewController id="FCT-WP-ecP" customClass="ViewController" customModule="HR_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FCT-WP-ecP" customClass="ViewController" customModule="HeartRate_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u5T-bG-W5S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,7 +122,7 @@
         <!--Result View Controller-->
         <scene sceneID="fAZ-yg-LDX">
             <objects>
-                <viewController id="o1G-oh-Ucl" customClass="ResultViewController" customModule="HR_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="o1G-oh-Ucl" customClass="ResultViewController" customModule="HeartRate_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CbP-op-StI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,7 +186,7 @@
         <!--PPG-->
         <scene sceneID="ced-UV-9gB">
             <objects>
-                <viewController id="QdE-iW-iez" customClass="PulseViewController" customModule="HR_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QdE-iW-iez" customClass="PulseViewController" customModule="HeartRate_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GgC-E2-i64">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,7 +250,7 @@
         <!--Real time HR-->
         <scene sceneID="U3Y-Sb-qab">
             <objects>
-                <viewController id="egg-75-oiT" customClass="PPG_RPPGViewController" customModule="HR_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="egg-75-oiT" customClass="PPG_RPPGViewController" customModule="HeartRate_fromCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xFc-ah-4H8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
