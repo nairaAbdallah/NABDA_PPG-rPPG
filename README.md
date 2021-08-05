@@ -1,5 +1,5 @@
 ### NABDA_PPG-rPPG app is a part of [NABDA iOS mobile.app](https://github.com/nairaAbdallah/NABDA) 
-### Me and [Ahmed Elsafty](https://github.com/ahmed0elsafty) worked on it
+### [Ahmed Elsafty](https://github.com/ahmed0elsafty) and Me worked on it
 ---
 ### This app consist of 2 techniques:
 1. PPG(Photoplethysmography) technique by using back camera + flash
